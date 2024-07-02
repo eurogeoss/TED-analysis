@@ -6,7 +6,7 @@ This repository includes a reproducible methodology for analysing the content of
 
 The Python notebook contains the code snippets necessary to perform the analysis. The input consists of:
 
-1) Data Extract from TED: A dataset limited to 8,000 rows, as the repository does not allow files larger than 25 MB [b2g_es_award_notice_max5cpv.csv].
+1) Data Extract from TED: A dataset limited to 8,000 rows, as the repository does not allow files larger than 25 MB [TED_database.csv].
 2) Keywords for Document Selection: A file containing the keywords used for selecting relevant documents [keywords_final.xlsx].
 Additionally, the keywords file includes another sheet that specifies the rules for key aggregation and the questions for evaluation using the LLM algorithm.
 
