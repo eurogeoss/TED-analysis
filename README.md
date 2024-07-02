@@ -10,3 +10,7 @@ The Python notebook contains the code snippets necessary to perform the analysis
 2) Keywords for Document Selection: A file containing the keywords used for selecting relevant documents [keywords_final.xlsx].
 Additionally, the keywords file includes another sheet that specifies the rules for key aggregation and the questions for evaluation using the LLM algorithm.
 
+How it works:
+From a list of relevant keywords and rules defined in the keywords file, we created a procedure that: i) searches and extracts items relevant to our topic of analysis; and ii) refines the search using Large Language Models, leveraging the nous-hermes-2-mixtral-8x7b-dpo algorithm in GPT@JRC. This framework can be readily adapted and applied to other cases with similar objectives.  
+
+Presentation: https://talks.osgeo.org/foss4g-europe-2024/talk/MTEYTZ/
